@@ -72,7 +72,7 @@ const divs = document.querySelectorAll('div');
  
 function bubble(e) {
   // stop! that! propagation!
-  e.stopPropagation();
+  e.preventDefault();
  
   console.log(this.firstChild.nodeValue.trim() + ' bubbled');
 }
