@@ -56,7 +56,7 @@ input.addEventListener('keydown', function(e) {
 
 
 
-//5) 
+//5) Capturing
 divs = document.querySelectorAll('div');
  
 function capture(e) {
