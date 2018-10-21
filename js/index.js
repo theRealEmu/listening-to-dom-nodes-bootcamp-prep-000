@@ -12,15 +12,24 @@ main.addEventListener('click', function(event) {
 
 
 
-//2) 
-const input = document.querySelector('input');
+//2) Print key on keydown Event
+//const input = document.querySelector('input');
 
-function whichKey(e) {
-  console.log(e.which);
-}
+//function whichKey(e) {
+//  console.log(e.which);
+//}
 
-input.addEventListener('keydown', whichKey);
+//input.addEventListener('keydown', whichKey);
 
 
 
 //3) Prevent default
+const input = document.querySelector('input')
+ 
+input.addEventListener('keydown', function(e) {
+  if (e.which === 71) {
+    return e.preventDefault()
+  } else {
+    console.log(e.which)
+  }
+});
