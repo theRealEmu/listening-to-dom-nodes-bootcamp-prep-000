@@ -33,3 +33,7 @@ input.addEventListener('keydown', function(e) {
     console.log(e.which)
   }
 });
+
+
+
+//4) Bubbling
