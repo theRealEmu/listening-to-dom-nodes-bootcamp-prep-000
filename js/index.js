@@ -20,3 +20,7 @@ function whichKey(e) {
 }
 
 input.addEventListener('keydown', whichKey);
+
+
+
+//3) Prevent default
