@@ -47,9 +47,9 @@ input.addEventListener('keydown', function(e) {
   // if `this` is a bit confusing, don't worry —
   // for now, know that it refers to the div that
   // is triggering the current event handler.
-  console.log(this.firstChild.nodeValue.trim() + ' bubbled');
-}
+//  console.log(this.firstChild.nodeValue.trim() + ' bubbled');
+//}
  
-for (let i = 0; i < divs.length; i++) {
-  divs[i].addEventListener('click', bubble);
-}
+//for (let i = 0; i < divs.length; i++) {
+//  divs[i].addEventListener('click', bubble);
+//}
